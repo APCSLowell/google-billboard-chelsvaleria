@@ -10,7 +10,7 @@ public void setup()
      dNum = Double.parseDouble(digits);
      isPrime(dNum);
      if(isPrime(dNum) == true){
-       System.out.println(dNum);
+       return dNum;
          break;
      }
      x++;
