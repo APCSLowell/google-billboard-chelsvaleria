@@ -11,6 +11,7 @@ public void setup()
      isPrime(dNum);
      if(isPrime(dNum) == true){
        System.out.println(dNum);
+         break;
      }
      x++;
      y++;
