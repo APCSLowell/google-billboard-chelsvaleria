@@ -10,7 +10,7 @@ public class GoogleBillboard {
      dNum = Double.parseDouble(digits);
      isPrime(dNum);
      if(isPrime(dNum) == true){
-       System.out.println(digits);
+       System.out.println(dNum);
        break;
      }
      x++;
